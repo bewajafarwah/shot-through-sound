@@ -1,0 +1,6 @@
+DETECT CRICKET SHOTS USING SOUND
+
+INSTALL THE FOLLOWING PACKAGES:
+    -ffmpeg
+    -librosa
+    -opencv
