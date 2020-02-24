@@ -35,10 +35,10 @@ def machade(file, t_s):
             for temp in range(40):
                 ret, frame = cap.read()
                 if not ret:
-                    out.release()
+                    #out.release()
                     break
-                out.write(frame)
+                #out.write(frame)
                 cv2.imwrite('{0}/{1}/{2}.jpg'.format(dir, str(ind), temp_j), frame)
                 temp_j+=1
-            out.release()
+            #out.release()
             ind+=1
